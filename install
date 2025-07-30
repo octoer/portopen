@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+RAW="https://raw.githubusercontent.com/octoer/portopen/main/portopen"
+
+sudo wget -qO /usr/local/bin/portopen "$RAW"
+sudo chmod +x /usr/local/bin/portopen
+sudo ln -sf /usr/local/bin/portopen /usr/local/bin/po
+echo "Installed: /usr/local/bin/portopen  (alias: po)"
+echo "Next: sudo po init   # 初始化/编辑配置文件"
