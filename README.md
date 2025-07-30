@@ -50,6 +50,10 @@
 
 ## 快速安装
 
+bash -c "$(wget -qO- https://raw.githubusercontent.com/octoer/portopen/main/install)"
+# 或（偏好 curl 的用户）
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/octoer/portopen/main/install)"
+
 **一条命令安装：**
 ```bash
 sudo wget -O /usr/local/bin/portopen https://raw.githubusercontent.com/octoer/portopen/main/portopen \
