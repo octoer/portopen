@@ -50,11 +50,11 @@
 
 ## 快速安装
 
-> 将 `<YOUR_GH_USERNAME>` 替换为你的 GitHub 用户名。
-
 **一条命令安装：**
 ```bash
-sudo wget -O /usr/local/bin/portopen https://raw.githubusercontent.com/<YOUR_GH_USERNAME>/portopen/main/portopen   && sudo chmod +x /usr/local/bin/portopen   && sudo ln -sf /usr/local/bin/portopen /usr/local/bin/po
+sudo wget -O /usr/local/bin/portopen https://raw.githubusercontent.com/octoer/portopen/main/portopen \
+  && sudo chmod +x /usr/local/bin/portopen \
+  && sudo ln -sf /usr/local/bin/portopen /usr/local/bin/po
 ```
 
 **初始化配置（可选，推荐）：**
